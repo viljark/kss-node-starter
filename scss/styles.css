@@ -1,0 +1,14 @@
+.btn {
+  border: 2px solid #fff;
+  background: #fff;
+  padding: 10px;
+  border-radius: 20px; }
+  .btn--warning {
+    border: 2px solid black; }
+
+.card {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: #fff; }
+  .card--border {
+    border: 4px solid #fff; }
