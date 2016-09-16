@@ -2,6 +2,16 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 var kss = require('kss');
+var scssToJson = require('scss-to-json');
+var path = require('path');
+var fs = require('fs');
+
+ 
+var filePath = path.resolve("./scss", '_variables.scss');
+var variablesJson = scssToJson(filePath);
+var json = JSON.stringify(variablesJson);
+fs.writeFileSync("styleguide/variables.json", json);
+
 
 var config = {
     "homepage": "../readme.md",
@@ -15,6 +25,7 @@ var config = {
     "css": [
         "../scss/styles.css"
     ],
+    title: "yoyoy",
     "verbose": true,
     "js": [],
     "builder": 'custom-theme'

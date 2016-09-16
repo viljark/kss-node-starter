@@ -15,5 +15,5 @@ after serve
 
 ## Configuration
 - Configuration can be found in gulpfile.js ```config``` variable.
-- custom styleguide look can be achieved by editinh files in the custom-theme (you have to compile .scss files yourself & run ```gulp styleguide ``` in separate terminal)
+- custom styleguide look can be achieved by editing files in the custom-theme (you have to compile .scss files yourself & run ```gulp styleguide ``` in separate terminal)
 

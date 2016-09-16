@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "scss-to-json": "^1.1.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.15.0",
     "gulp": "^3.9.1",
